@@ -1,0 +1,19 @@
+{
+  "soundtrack": {
+    "title": "Hymn",
+    "creator": "Scott Buckley",
+    "source": "https://www.scottbuckley.com.au/library/hymn/",
+    "license": "CC BY 4.0",
+    "ai_generated_recording": false,
+    "file_modified_by_this_release": false
+  },
+  "procedural_effects": {
+    "description": "Existing Earth/UI synthesis retained. Mars uses brief instrument cues and a quiet, powered-descent-only engine effect. No continuous Mars drone.",
+    "implementation_assistance": "OpenAI ChatGPT/Codex",
+    "source": "src/marsAudio.js and existing game audio modules"
+  },
+  "narration": {
+    "description": "Optional Mission Control text read by browser/operating-system speech synthesis.",
+    "implementation_assistance": "OpenAI ChatGPT/Codex"
+  }
+}

@@ -1,0 +1,10 @@
+.crew-lobby label,.archive label{display:block;margin:16px 0;color:#a6dced;font-size:12px;letter-spacing:1px}
+.crew-lobby input,.crew-lobby select,.archive select{display:block;width:100%;padding:12px;margin:8px 0;background:#081929;border:1px solid #52788c;color:#eff7ff}
+.crew-lobby button{margin:7px 5px 7px 0;padding:12px;background:#153448;border:1px solid #648a9e;color:#dff5ff}
+.crew-lobby p,.crew-overlay p{line-height:1.6;font-size:13px;color:#b4cbd7}
+.crew-lobby dl{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:16px 0;border-block:1px solid #517a8b}
+.crew-lobby dt{font-size:11px;color:#91bad1}.crew-lobby dd{margin:0;color:#f1c78b}
+.crew-overlay{position:fixed;z-index:100;bottom:12px;left:12px;max-width:330px;color:#bceaff;background:#0b202bed;border:1px solid #588a9c;font:12px Arial}
+.crew-overlay summary{padding:12px;cursor:pointer}.crew-overlay>div{padding:16px;max-height:55vh;overflow:auto}
+.crew-overlay button{padding:9px;background:#1c3e50;color:#dcf4ff;border:1px solid #7295a6}
+.archive .info-card{margin-top:18px}.archive select{width:180px}.archive h3{font-size:19px;color:#e6d3ad}

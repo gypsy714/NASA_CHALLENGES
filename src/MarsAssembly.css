@@ -1,0 +1,103 @@
+/* AI-assisted styling. See AI_USAGE.md. */
+.ma-workshop .vab-main {
+  min-height: 0;
+}
+.ma-steps {
+  height: 48px;
+  display: flex;
+  gap: 10px;
+  padding: 8px 18px;
+  background: #14232d;
+  flex-shrink: 0;
+}
+.ma-steps button {
+  flex: 1;
+  background: #263b48;
+  color: #b7c9d0;
+  border: 1px solid #45616e;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.ma-steps button.active {
+  color: #f1d8a6;
+  border-color: #c8ab77;
+  background: #3b3c34;
+}
+.ma-modules {
+  overflow: auto;
+  padding: 12px;
+  display: grid;
+  gap: 12px;
+}
+.ma-module {
+  border-bottom: 1px solid #47606b;
+  padding: 6px 2px 14px;
+}
+.ma-module b {
+  display: block;
+  font-size: 13px;
+  color: #e3d1ad;
+}
+.ma-module small {
+  display: block;
+  font-size: 11px;
+  color: #a9bbc3;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+.ma-module span {
+  font-size: 10px;
+  color: #91b2bf;
+}
+.ma-module>div {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.ma-module button {
+  flex: 1;
+  background: #243c4a;
+  color: #e8f0ed;
+  border: 1px solid #526a75;
+  padding: 8px;
+  font-size: 10px;
+}
+.ma-description {
+  padding: 22px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #b6c8ce;
+}
+.ma-description h3 {
+  font-size: 13px;
+  color: #dec493;
+}
+.ma-workshop .vab-stats {
+  overflow-y: auto;
+}
+.ma-workshop .vab-stats>* {
+  flex-shrink: 0;
+}
+.ma-workshop .vab-readiness {
+  max-height: none;
+  overflow: visible;
+}
+.ma-workshop .vab-status {
+  flex-shrink: 0;
+}
+@media(max-width:800px) {
+  .ma-steps {
+    gap: 4px;
+    padding: 6px;
+  }
+  .ma-steps button {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+  .ma-module b {
+    font-size: 11px;
+  }
+  .ma-module small {
+    font-size: 10px;
+  }
+}
